@@ -7,28 +7,39 @@ A multi-page university department homepage built with **Vue 3**, featuring user
 ## 📁 Project Structure
 
 ```
-src/
-├── components/
-│   ├── PageHeader.vue          # Top header bar
-│   ├── PageLogo.vue            # Department logo
-│   ├── PageNavbar.vue          # Navigation bar
-│   ├── PageLogbar.vue          # Login status bar
-│   ├── PageHamburgerMenu.vue   # Mobile hamburger menu
-│   ├── PageFooter.vue          # Footer
-│   └── HelloWorld.vue          # Default Vue component
-├── views/
-│   ├── HomeView.vue            # Landing page
-│   ├── AboutView.vue           # About the department
-│   ├── AcademicView.vue        # Academic information
-│   ├── GalleryView.vue         # Photo gallery
-│   ├── LoginView.vue           # Login page
-│   ├── LogoutView.vue          # Logout page
-│   ├── SignUp.vue              # Sign up page
-│   └── ForgotPassword.vue      # Password recovery page
-├── router/
-│   └── index.js                # Vue Router configuration
-├── store/                      # Vuex store
-└── App.vue                     # Root component
+DMU-CSE-VueHomepage/
+├── public/
+│   ├── favicon.ico
+│   ├── favicon1.ico
+│   └── index.html
+├── src/
+│   ├── assets/                 # Static assets (images, fonts, etc.)
+│   ├── components/
+│   │   ├── PageHeader.vue          # Top header bar
+│   │   ├── PageLogo.vue            # Department logo
+│   │   ├── PageNavbar.vue          # Navigation bar
+│   │   ├── PageLogbar.vue          # Login status bar
+│   │   ├── PageHamburgerMenu.vue   # Mobile hamburger menu
+│   │   ├── PageFooter.vue          # Footer
+│   │   └── HelloWorld.vue
+│   ├── views/
+│   │   ├── HomeView.vue            # Landing page
+│   │   ├── AboutView.vue           # About the department
+│   │   ├── AcademicView.vue        # Academic information
+│   │   ├── GalleryView.vue         # Photo gallery
+│   │   ├── LoginView.vue           # Login page
+│   │   ├── LogoutView.vue          # Logout page
+│   │   ├── SignUp.vue              # Sign up page
+│   │   └── ForgotPassword.vue      # Password recovery
+│   ├── router/
+│   │   └── index.js                # Vue Router configuration
+│   ├── store/                      # Vuex store
+│   ├── App.vue                     # Root component
+│   └── main.js                     # App entry point
+├── babel.config.js
+├── jsconfig.json
+├── vue.config.js
+└── package.json
 ```
 
 ---
